@@ -81,9 +81,9 @@ for((flipCount=1;flipCount<=$numberOfFlipsTriplet;flipCount++))
 do
 	case $((RANDOM%8+1)) in
 	1)
-		flipCoinDictionary[HHH]=$((${flipCoinDictionary[HHH]}+1))
-		echo -ne "HHH"
-		;;
+	flipCoinDictionary[HHH]=$((${flipCoinDictionary[HHH]}+1))
+	echo -ne "HHH"
+	;;
 	2)
    	flipCoinDictionary[TTT]=$((${flipCoinDictionary[TTT]}+1))
    	echo -ne "TTT"
